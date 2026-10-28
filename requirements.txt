@@ -1,0 +1,12 @@
+# Install a matching torch/torchvision pair for your hardware first.
+# These ranges are dependency guidance, not a validated lockfile.
+torch>=1.11
+torchvision>=0.12
+numpy>=1.19
+scipy>=1.7
+scikit-learn>=1.0
+scikit-image>=0.19
+matplotlib>=3.5
+Pillow>=9
+kornia>=0.6.5
+tqdm>=4.62

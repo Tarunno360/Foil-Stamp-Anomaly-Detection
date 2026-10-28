@@ -1,0 +1,26 @@
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+# Private datasets, weights, and generated output
+data/
+MVTec/
+development_dataset/
+sample_dataset/
+support_set/
+save_checkpoints/
+outputs/
+anomaly_visualizations/
+my_visualizations/
+*.pt
+*.pth
+*.tar
+*.log
+auroc_results.txt
+anomaly_detection_results.txt
